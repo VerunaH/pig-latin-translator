@@ -1,0 +1,5 @@
+services:
+	- App\Router\RouterFactory::createRouter
+	- App\Components\Translator\TranslatorControlFactory
+	- App\Model\TranslationManager
+

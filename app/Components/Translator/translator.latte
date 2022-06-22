@@ -1,0 +1,15 @@
+{form translatorForm}
+  <div class="row">
+    <div class="col">
+      {label text /}
+      {input text, id=>"text"}
+    </div>
+    <div class="col" n:snippet="output">
+      <label>Translated text:</label>
+      <textarea id="output" readonly>{$output}</textarea>
+    </div>
+  </div>
+  <div class="bottom">
+    {input submit class=>"ajax submit"}
+  </div>
+{/form}

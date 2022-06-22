@@ -1,0 +1,13 @@
+body { font-family: "Roboto", sans-serif; max-width: 500px; margin: 1rem auto; border: solid #125EAE 2px; border-radius: 5px;}
+
+h1 { margin: 0; padding: 0.5rem 1rem; background-color: #000052; color: #FDF5CE; border-top-left-radius: 3px; border-top-right-radius: 3px; display: flex; justify-content: space-between; align-items: center;}
+h1 img { width: 5rem;}
+#content { padding: 1rem;}
+
+.row { display: flex; gap: 1rem; align-items: stretch}
+.col {flex: 1 0 auto; display: flex; flex-direction: column;}
+label { display: block}
+textarea { font-family: "Roboto", sans-serif; width: auto; height: 5rem; color: #125EAE; flex: 1 0 auto;}
+.submit { background-color: #000052; color: #FDF5CE; border: none; padding: 0.25rem 0.5rem; margin: 1rem auto 0;}
+.submit:hover { background-color: #FDF5CE; color: #000052; }
+.bottom { margin: 0 auto;}
