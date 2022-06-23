@@ -23,6 +23,7 @@ class TranslationManager {
 
     private function translateValidWord(string $word): string {
         $validWord = preg_match("/^[a-z]*$/", $word);
+        // tbd - words end with dot, words witch allowed special chars
 
         if ($validWord && strlen($word) > 0) {
             return $this->translateWord($word);
